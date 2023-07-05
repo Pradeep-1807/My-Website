@@ -586,7 +586,7 @@
 
 
 
-@media  (min-width:500px) and (max-width:955px){
+@media  (min-width:370px) and (max-width:955px){
     body{
         margin: 0;
         background: linear-gradient(-45deg, #EEEEEE, #A460ED, #F07DEA, #EEEEEE);
