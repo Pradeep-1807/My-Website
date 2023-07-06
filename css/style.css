@@ -11,7 +11,7 @@
         margin: 0;
     }
     h2{
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Noto Serif Makasar', serif;
         font-size: x-large;
         text-align: justify;
         letter-spacing: 5px;
@@ -304,7 +304,7 @@
         margin: 0;
     }
     h2{
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Noto Serif Makasar', serif;
         font-size: x-large;
         text-align: justify;
         letter-spacing: 5px;
@@ -599,13 +599,12 @@
         margin: 0;
     }
     h2{
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Noto Serif Makasar', serif;
         font-size: large;
         text-align: justify;
         letter-spacing: 2px;
         word-spacing: 1px;
         margin-bottom: 30px;
-        text-decoration: dashed;
         color: #28606b;
     }
     
@@ -616,7 +615,7 @@
         margin-top: 10px;
     }
     .container-box{
-            height: 600px;
+            height: 650px;
             position: relative;
             display: grid;
             grid-template-columns: 1fr 3fr 1fr;
@@ -631,7 +630,7 @@
         grid-area: 1/-2/2/-1;
         position: absolute;
         top: 80px;
-        right: 50px;
+        right: 10px;
     
     }
     .heading{
@@ -643,10 +642,11 @@
         height: 50px;
         grid-area: 3/1/4/2;
         position:absolute;
-        left: 30px;
+        bottom: 50px;
+        left: 10px;
     }
     #mountain{
-        height: 180px;
+        height: 150px; 
         grid-area: -3/2/-1/3;
         justify-self: center;
         position: absolute;
@@ -674,8 +674,8 @@
         color:#393c38
     }
     .profile-pic{
-        height: 250px;
-        width: 250px;
+        height: 180px;
+        width: 180px;
         border-radius: 50%;
         margin:50px auto 50px auto;
     }
@@ -701,17 +701,16 @@
     .skills{
         display: flex;
         flex-direction: column;
-        gap: 50px;
         align-items: center;
         color: #071a28;
     }
     .skill-box{
-        height: 400px;
+        height: 500px;
         width: 80%;
         display: grid;
-        grid-template-rows: 50px 150px 200px;
+        grid-template-rows: 50px 150px 300px;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-bottom: 50px;
+        margin-top: 30px;
         align-items: center;
         justify-items: center;
         
@@ -790,9 +789,9 @@
         gap: 30px;
         align-items: center;
         justify-content: center;
-        margin: auto;
+        margin: 100px auto 10px;
         font-family: 'Sen', sans-serif;
-        font-size: x-large;
+        font-size: 20px;
         word-spacing: 5px;
         color:rgb(97, 3, 77)
     }
@@ -818,8 +817,8 @@
         font-size: 15px;
         padding: 12px 25px 12px 25px;
         text-decoration: none;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 20px;
+        margin-bottom: 30px;
       }
       
       .btn:hover {
